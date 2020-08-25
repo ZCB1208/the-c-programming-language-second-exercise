@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define IN 1
+#define IN  1
 #define OUT 0
 
 int main()
@@ -16,7 +16,7 @@ int main()
 
     while ((c = getchar()) != EOF)
     {
-        
+        // ++nc;
         if ( (  (c != ' ')  || (pre_c != ' ')  )
                 &&
              (  (c != '\t') || (pre_c != '\t') )) {
