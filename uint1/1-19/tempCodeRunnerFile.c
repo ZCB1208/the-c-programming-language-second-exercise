@@ -1,0 +1,1 @@
+        // printf("[%d]= %c",i,line[i]);
